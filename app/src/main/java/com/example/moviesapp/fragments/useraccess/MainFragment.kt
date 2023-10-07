@@ -7,6 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
 import android.widget.Toast
+import androidx.navigation.fragment.findNavController
 import com.example.moviesapp.R
 
 class MainFragment : Fragment(R.layout.fragment_main) {
@@ -16,8 +17,7 @@ class MainFragment : Fragment(R.layout.fragment_main) {
         val btnLogin = view.findViewById<Button>(R.id.btn_login)
 
         btnLogin.setOnClickListener {
-            val toast = Toast.makeText(requireActivity(), "Inicio de sesión", Toast.LENGTH_SHORT)
-            toast.show()
+            findNavController().navigate(R.id.action_mainFragment_to_loginFragment)
         }
     }
 }

@@ -9,24 +9,26 @@
     tools:context=".fragments.useraccess.MainFragment">
 
     <ImageView
-        android:layout_marginTop="-160dp"
-        android:layout_marginStart="-130dp"
-        android:id="@+id/head_icon_2"
-        android:layout_width="185dp"
-        android:layout_height="185dp"
-        android:src="@drawable/geometric" />
+        android:id="@+id/head_icon_1"
+        android:layout_width="175dp"
+        android:layout_height="140dp"
+        android:layout_marginStart="-140dp"
+        android:layout_marginTop="-70dp"
+        android:layout_marginBottom="80dp"
+        android:src="@drawable/network" />
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="187dp"
-        android:layout_height="223dp"
+        android:layout_width="168dp"
+        android:layout_height="181dp"
         android:src="@drawable/movies_app" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/title_app"
-        android:textSize="50sp"
+        android:textColor="#1C2120"
+        android:textSize="40sp"
         android:textStyle="bold"
         android:layout_marginBottom="40dp"/>
 
@@ -51,5 +53,10 @@
         android:layout_margin="30dp"
         android:textSize="20sp"
         android:textColor="@color/white"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Terminos y Condiciones"/>
 
 </LinearLayout>
