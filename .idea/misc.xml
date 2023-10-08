@@ -6,9 +6,12 @@
         <entry key="app/src/main/res/drawable-v24/background_btn_init_2.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/background_btn_init.xml" value="0.263" />
         <entry key="app/src/main/res/drawable/border_radius.xml" value="0.1075" />
+        <entry key="app/src/main/res/drawable/list_item.xml" value="0.1055" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.22" />
-        <entry key="app/src/main/res/layout/fragment_login.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_login.xml" value="0.16" />
         <entry key="app/src/main/res/layout/fragment_main.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/fragment_register.xml" value="0.21" />
+        <entry key="app/src/main/res/layout/list_item.xml" value="0.1" />
       </map>
     </option>
   </component>
