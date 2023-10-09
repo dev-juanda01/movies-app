@@ -21,9 +21,18 @@
         android:id="@+id/loginFragment"
         android:name="com.example.moviesapp.fragments.useraccess.LoginFragment"
         android:label="fragment_login"
-        tools:layout="@layout/fragment_login" />
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_loginFragment_to_movieBillboardFragment"
+            app:destination="@id/movieBillboardFragment" />
+    </fragment>
     <fragment
         android:id="@+id/registerFragment"
         android:name="com.example.moviesapp.fragments.useraccess.RegisterFragment"
         android:label="RegisterFragment" />
+    <fragment
+        android:id="@+id/movieBillboardFragment"
+        android:name="com.example.moviesapp.fragments.appviews.MovieBillboardFragment"
+        android:label="fragment_movie_billboard"
+        tools:layout="@layout/fragment_movie_billboard" />
 </navigation>

@@ -7,6 +7,7 @@ import android.view.View
 import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
+import androidx.navigation.fragment.findNavController
 import com.example.moviesapp.R
 import com.example.moviesapp.database.UserDB
 
@@ -35,7 +36,7 @@ class LoginFragment : Fragment(R.layout.fragment_login) {
 
                 if(userValidToLogin) {
                     // TODO: enviar a otro fragmento
-                    Toast.makeText(requireActivity(), "!Usuario valido¡", Toast.LENGTH_SHORT).show()
+                    findNavController().navigate(R.id.action_loginFragment_to_movieBillboardFragment)
                 } else {
                     Toast.makeText(requireActivity(), "Usuario no valido", Toast.LENGTH_SHORT).show()
                 }
